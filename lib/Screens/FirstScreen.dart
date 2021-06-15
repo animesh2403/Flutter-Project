@@ -27,10 +27,10 @@ class _FirstScreenState extends State<FirstScreen> {
               ),
               SizedBox(height: 30),
               InkWell(
-                child: Icon(Icons.arrow_back) ,
-                onTap: (){
-                  Navigator.pop(context);
-                }
+                  child: Icon(Icons.arrow_back) ,
+                  onTap: (){
+                    Navigator.pop(context);
+                  }
               ),
             ],
           ),

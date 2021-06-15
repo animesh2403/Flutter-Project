@@ -22,9 +22,9 @@ class _SecondScreenState extends State<SecondScreen> {
                 ),),
                 SizedBox(height: 30,),
                 InkWell(
-                child: Icon(Icons.arrow_back),
-                onTap: (){
-                Navigator.pop(context);})
+                    child: Icon(Icons.arrow_back),
+                    onTap: (){
+                      Navigator.pop(context);})
               ],
             ),
             // child:
