@@ -1,5 +1,4 @@
 import 'package:demo/Screens/FirstScreen.dart';
-import 'package:demo/Screens/SecondScreen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -10,6 +9,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'MY DEMO',
       theme: ThemeData(
         primarySwatch: Colors.blue,
